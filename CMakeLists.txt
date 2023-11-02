@@ -3,5 +3,6 @@ project(Luogu-C C)
 
 set(CMAKE_C_STANDARD 17)
 
+add_executable(test test.c)
 add_executable(P2907 P2907.c)
-add_executable(P4593 P4593.c)
+add_executable(P3378 P3378-heap.c)
